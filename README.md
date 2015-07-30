@@ -1,6 +1,6 @@
 # Cherno-Bridge-Trader
 A trader city in outskirt of Chernogorsk. <Br /> 
-First just the files, I will add in install instruction soon. <Br />
+First just the files, I will add in a bettter install instruction soon. <Br />
 All files and trader location in files, just add in mission.sqf and server_trader.sqf. <Br />
 Change TID on traders, we probably dont have same. <Br />
 
@@ -23,3 +23,5 @@ server_trader.sqf: add all new trader to: serverTraders =[  <br />
 "GUE_Soldier_Medic", Medic <Br />
 "Soldier_GL_M16A2_PMC", Black Market  <br />
 "TK_CIV_Woman01_EP1", Bankier (Gold and Gems)  <br />
+############################## 
+Copy content in Mission.sqf and place it at the end of your dayz_server\missions\DayZ_Epoch_11.Chernarus\mission.sqf (Un-pbo dayz_server.pbo) <Br /> 
