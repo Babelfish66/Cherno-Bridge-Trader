@@ -1,1 +1,47 @@
+Edit class markers item number to fit yours
 
+class Item17
+		{
+			position[]={6937.5581, 0.00014209747,3226.0923};
+			name="Cherno";
+			text="Cherno Bridge Trader";
+			type="mil_circle";
+			colorName="ColorBlack";
+		};
+
+//Dont forget to increase your item=XX at start of Classmarkers.//
+		
+			class markers
+	{
+		items=17; <--- Increase this number after adding in sensor for trader city (in my case to 18)
+		class Item0
+		{
+
+
+Edit class Sensors item number to fit yours
+
+class Item5
+		{
+			position[]={6937.5581, 0.00014209747,3226.0923};
+			a=100;
+			b=100;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="zonecherno";
+			expCond="(player distance zonecherno) < 100;";
+			expActiv="[""Cherno Bridge Trader"",false,""enter""] spawn player_traderCity;";
+			expDesactiv="[""Cherno Bridge Trader"",false,""leave""] spawn player_traderCity;";
+			class Effects
+			{
+			};
+		};
+		
+		//Dont forget to increase your item=XX at start of Classmarkers.//
+		
+			class Sensors
+	{
+		items=5; <--- Increase this number after adding in sensor for trader city (in my case to 6)
+		class Item0
+		{
