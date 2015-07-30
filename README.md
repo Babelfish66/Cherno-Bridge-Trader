@@ -28,3 +28,4 @@ server_trader.sqf: add all new trader to: serverTraders =[  <br />
 "Soldier_GL_M16A2_PMC", Black Market  <br />
 "TK_CIV_Woman01_EP1", Bankier (Gold and Gems)  <br />
 
+Screenshots: http://steamcommunity.com/profiles/76561197997319522/screenshots/
