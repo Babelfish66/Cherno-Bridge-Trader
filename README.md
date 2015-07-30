@@ -10,8 +10,11 @@ place end of file under: 	publicVariable "sm_done"; <br />
 }; <br />
 //Cherno Trader City <br />
 execVM  "\z\addons\dayz_server\CustomBuildings\cherno_trader.sqf";   <br />
+############################## 
+Copy content in Mission.sqf and place it at the end of your dayz_server\missions\DayZ_Epoch_11.Chernarus\mission.sqf (Un-pbo dayz_server.pbo) <Br /> 
 Repack PBO <br />
 Done. <br />
+##############################
 
 server_trader.sqf: add all new trader to: serverTraders =[  <br />
 "HouseWife5",   // Food and such <br />
@@ -23,5 +26,4 @@ server_trader.sqf: add all new trader to: serverTraders =[  <br />
 "GUE_Soldier_Medic", Medic <Br />
 "Soldier_GL_M16A2_PMC", Black Market  <br />
 "TK_CIV_Woman01_EP1", Bankier (Gold and Gems)  <br />
-############################## 
-Copy content in Mission.sqf and place it at the end of your dayz_server\missions\DayZ_Epoch_11.Chernarus\mission.sqf (Un-pbo dayz_server.pbo) <Br /> 
+
